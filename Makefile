@@ -2,7 +2,8 @@
 
 include config.mk
 
-PREFIX          ?= /usr/local
+# The prefixes depends on the usual install directory
+PREFIX          ?= /usr
 BINDIR          ?= $(PREFIX)/bin
 DATADIR         ?= $(PREFIX)/share
 LIBDIR          ?= $(PREFIX)/lib
